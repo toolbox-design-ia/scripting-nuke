@@ -1,0 +1,30 @@
+{
+  "clip": "SHOT_0010_beauty.%04d.exr",
+  "directory": "/mnt/ingest/reel1/SHOT_0010/",
+  "verdict": "FAIL",
+  "checks": [
+    {
+      "rule": "resolution",
+      "expected": {"width": 2048, "height": 1556},
+      "found": {"width": 2048, "height": 1152},
+      "passed": false,
+      "severity": "critical",
+      "message": "Height mismatch: expected 1556, found 1152"
+    },
+    {
+      "rule": "channels",
+      "expected": ["R", "G", "B"],
+      "found": ["R", "G", "B"],
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "rule": "frame_range",
+      "expected": {"first": 1001, "last": 1125},
+      "found": {"first": 1001, "last": 1124, "missing": [1125]},
+      "passed": false,
+      "severity": "critical",
+      "message": "Missing frames: [1125]"
+    }
+  ]
+}

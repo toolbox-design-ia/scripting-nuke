@@ -1,0 +1,14 @@
+{
+  "tool": "beautify",
+  "category": "comp",
+  "version": "1.0.2",
+  "build_date": "2025-05-12",
+  "published_at": "2025-05-13T09:22:14Z",
+  "published_by": "h.ramirez@studio35.com",
+  "git_branch": "release/1.0.2",
+  "git_commit": "3a7f2c91b4d0e5f8a1b2c3d4e5f6a7b8c9d0e1f2",
+  "platforms": ["linux", "windows"],
+  "nuke_versions": ["14.0", "14.1", "15.0"],
+  "checksum_file": "CHECKSUMS.sha256",
+  "notes": "Corrige el cálculo de gamma en el nodo de luminancia (issue #47). Compatible con la LUT aprobada para el proyecto en /prod/color/."
+}

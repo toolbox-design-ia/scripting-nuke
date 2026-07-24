@@ -1,0 +1,35 @@
+{
+  "project": "SAMPLE_2026",
+  "version": "1.2",
+  "rules": {
+    "resolution": {
+      "width": 2048,
+      "height": 1556,
+      "tolerance": 0,
+      "severity": "critical"
+    },
+    "frame_rate": {
+      "expected": 24.0,
+      "tolerance": 0.001,
+      "severity": "critical"
+    },
+    "colorspace": {
+      "expected": ["ACEScg", "scene-linear"],
+      "allow_missing": false,
+      "severity": "warning"
+    },
+    "bit_depth": {
+      "minimum": 16,
+      "severity": "warning"
+    },
+    "channels": {
+      "required": ["R", "G", "B"],
+      "optional": ["A"],
+      "severity": "critical"
+    },
+    "formats": {
+      "allowed": ["exr", "dpx"],
+      "severity": "critical"
+    }
+  }
+}
