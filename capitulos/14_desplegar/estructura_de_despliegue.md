@@ -1,8 +1,6 @@
-# Fragmentos no autocontenidos — 14. Desplegar
+# Estructura de despliegue impresa en el capitulo 14
 
-## init.py: el punto de entrada de cada directorio
-
-```python
+```text
 /tools/nuke/prod/
   init.py
   menu.py
