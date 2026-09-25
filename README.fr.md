@@ -2,7 +2,7 @@
 
 # Scripts y gizmos para Nuke y Hiero — Scripts du livre
 
-Dépôt companion (Studio35). Les scripts complets de chaque chapitre vivent dans `capitulos/`.
+Dépôt companion (Toolbox Design). Les scripts complets de chaque chapitre vivent dans `capitulos/`.
 
 ## Un dépôt, trois éditions
 
